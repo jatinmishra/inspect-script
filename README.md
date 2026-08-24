@@ -15,9 +15,10 @@ This happens multiple times in a single Claude Code session. And until now, ther
 
 ### Without inspect-script
 
-> A temp filename. Nothing else.
+> A script with bunch of code only.
 
-![Before — blind approval prompt with no script content](before.png)
+<img width="861" height="804" alt="Thash command" src="https://github.com/user-attachments/assets/1769f959-0d3f-412e-bd6f-314c5f8921dc" />
+
 
 ---
 
@@ -25,7 +26,8 @@ This happens multiple times in a single Claude Code session. And until now, ther
 
 > Script type, what it does, why it's needed, and full content — shown as a preview block above the permission prompt.
 
-![With Skill — formatted preview block shown above the permission dialog](skill.png)
+<img width="821" height="513" alt="• — Script Preview -" src="https://github.com/user-attachments/assets/f203c542-1864-4f17-ad70-b1a1a6a56fbd" />
+
 
 ---
 
@@ -33,7 +35,8 @@ This happens multiple times in a single Claude Code session. And until now, ther
 
 > Same information, but embedded directly inside the permission dialog itself.
 
-![With Hook — script details embedded inside the Bash permission prompt](hook.png)
+<img width="871" height="829" src="https://github.com/user-attachments/assets/5c92889e-edf9-4ca0-87ae-0605b259e9b0" />
+
 
 ---
 
