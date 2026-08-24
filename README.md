@@ -1,13 +1,16 @@
 # inspect-script
 
-**Claude runs scripts. You approve them blind.**
+**Claude runs scripts at runtime. You never get to see them.**
 
-Every time Claude writes and executes a script at runtime, you see a bare filename and a binary choice. No script. No explanation. No context.
+Every time Claude writes and executes a script, you get a permission prompt with a temp filename — and nothing else. The script is right there, already written, but Claude Code never shows it to you.
 
-If you say **Yes** — you've just approved code you haven't read.  
-If you say **No** — the script is gone. You'll never know what it was going to do.
+If you know Python or Bash, you'd spot the unintended side effect, the files it's about to touch, the scope that went further than you asked. But you never get the chance — because you never see the code.
 
-This happens multiple times in a single Claude Code session. And until now, there was no fix.
+If you're less familiar with the language, you'd at least want a plain-English summary of what's about to run on your machine and why. You don't get that either.
+
+Say **Yes** and you've approved something unread. Say **No** and it's gone — you'll never know what it was going to do.
+
+**inspect-script fixes this for both.** Developers get the full script. Everyone gets the intent.
 
 ---
 
@@ -15,7 +18,7 @@ This happens multiple times in a single Claude Code session. And until now, ther
 
 ### Without inspect-script
 
-> A script with bunch of code only.
+> A temp filename. A yes/no choice. The script itself is never shown.
 
 <img width="861" height="804" alt="Thash command" src="https://github.com/user-attachments/assets/1769f959-0d3f-412e-bd6f-314c5f8921dc" />
 
